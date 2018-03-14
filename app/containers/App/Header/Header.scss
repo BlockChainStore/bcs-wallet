@@ -1,0 +1,31 @@
+@import '../../../styles/variables';
+.container {
+    height: 50px; // 50
+    padding-bottom: 10px; //put back to 10px for aligning center
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    >div {
+        padding-right: 30px;
+        &:last-child {
+            padding-right: 0px;
+        }
+    }
+}
+
+.navBarItem {
+    font-size: .9em;
+    color: rgb(99, 99, 99);
+}
+
+.navBarItemLabel {
+    font-weight: 800;
+    color: rgb(167, 167, 167);
+    margin-right: 4px;
+}
